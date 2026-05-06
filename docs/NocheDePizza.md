@@ -2,14 +2,14 @@
 ## NocheDePizza
 ![Noche de pizza?](/docs/img/nochedepizza.png)
 ### Roles
-| Persona | Rol |
-| - | - |
-| Cristian |  |
-| Esther |  |
-| Josué Francisco |  |
-| Diego |  |
-| Pablo |  |
-| Carlos |  |
+| Persona | Rol    |
+| - |--------|
+| Cristian |        |
+| Esther |        |
+| Josué Francisco |        |
+| Diego | Docker |
+| Pablo |        |
+| Carlos |        |
 ### Requisitos Técnicos
 | ToDo | Requisito |
 |- |-|
