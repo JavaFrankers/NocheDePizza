@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>model</module>
+        <module>app</module>
+        <module>docker</module>
     </modules>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
