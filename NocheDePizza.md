@@ -3,7 +3,7 @@
 ![Noche de pizza?](/img/nochedepizza.png)
 ### Roles
 | Persona | Rol |
-| - | - |
+| - |--|
 | Cristian |  |
 | Esther |  |
 | Josué Francisco |  |
