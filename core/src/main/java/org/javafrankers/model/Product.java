@@ -8,6 +8,6 @@ import lombok.Data;
 public class Product {
     private String id;
     private String name;
-    private int price;
+    private double price;
     private String type;
 }
