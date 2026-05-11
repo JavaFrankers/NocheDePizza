@@ -33,8 +33,8 @@
 
 ### Funciones extra:
 | ToDo | Funcion |
-| - | - |
-|  |  |
+| - |--------|
+|  | Login  |
 ### Objetos:
 | ToDo | Objeto | Obl | SQL | Atributos |
 | - | - | - | - | - |
