@@ -9,27 +9,27 @@
 | Josué Francisco | Cliente              |
 | Diego | Docker-Conexion JDBC |
 | Pablo | Producto             |
-| Carlos | E/R                  |
+| Carlos | M/R                  |
 ### Requisitos Técnicos
-| ToDo | Requisito |
-|- |-|
-| Done | Java 21 |
-| WIP | Maven4+módulos |
-| WIP | Este documento |
-|  | MySQL+JDBC usando patrón DAO |
-|  | App de consola |
-|  | Docker |
-|  | Diagrama E/R |
-|  | Capturas |
+| ToDo  | Requisito                    |
+|-------|------------------------------|
+| Done  | Java 21                      |
+| WIP   | Maven4+módulos               |
+| WIP   | Este documento               |
+|       | MySQL+JDBC usando patrón DAO |
+|       | App de consola               |
+|       | Docker                       |
+| Done? | Diagrama Modelo Relacional   |
+|       | Capturas                     |
 
 ### Contenido de este documento
 
-| ToDo | Contenido |
-| - | - |
-|  | Descripcíon |
-|  | Diagrama E/R |
-|  | Instrucciones de uso |
-|  | Créditos |
+| ToDo  | Contenido            |
+|-------|----------------------|
+|       | Descripcíon          |
+| Done? | Diagrama M/R         |
+|       | Instrucciones de uso |
+|       | Créditos             |
 
 ### Funciones extra:
 | ToDo | Funcion |
