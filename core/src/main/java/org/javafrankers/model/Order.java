@@ -13,7 +13,8 @@ public class Order {
     private String cliente_id;
     private LocalDate fecha;
     private double total;
-    private boolean state;
+    //state tiene 3 estados = PENDIENTE, ENTREGADO y CANCELADO
+    private String state;
     private List<OrderLine> orderLines;
 
 }

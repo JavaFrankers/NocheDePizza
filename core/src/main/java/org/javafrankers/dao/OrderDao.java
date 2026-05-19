@@ -7,8 +7,10 @@ import org.javafrankers.model.OrderLine;
 import java.util.List;
 
 public interface OrderDao {
-    Order createOrder(Client client);
+    void createOrder(Client client);
     void update(Order order);
     List<Order> listDailyOrders();
     List<Order> showAllOrders(Client client);
+
+    Order findOrderByID(int id);
 }

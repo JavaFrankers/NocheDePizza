@@ -1,6 +1,6 @@
 # El Documento
 ## NocheDePizza
-![Noche de pizza?](/img/nochedepizza.png)
+![Noche de pizza?](img/nochedepizza.png)
 ### Roles
 | Persona | Tarea                |
 | - |----------------------|
