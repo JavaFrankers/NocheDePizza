@@ -2,9 +2,12 @@ package org.javafrankers.app;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j;
+import org.javafrankers.DataBaseConnection;
 import org.javafrankers.dao.JdbcProductDao;
+import org.javafrankers.util.ScriptRunner;
 
 import java.lang.reflect.Array;
+import java.sql.Connection;
 import java.util.*;
 
 @AllArgsConstructor
@@ -13,6 +16,7 @@ public class NochedepizzaApp {
     private final Scanner scanner;
     private final JdbcProductDao jdbcProductDao;
     public void run() {
+        initSQL();
         int opt = 0;
         String estado = null; // null = no hay pedido activo
 
@@ -132,5 +136,12 @@ public class NochedepizzaApp {
             menuLines.forEach(System.out::println);
             opt = readNumber();
         }while (opt != 4);
+    }
+    private void initSQL(){
+        try (Connection conn = DataBaseConnection.getConnection()) {
+            ScriptRunner.executeScript(conn, "src/main/resources/init.sql");
+        } catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }
