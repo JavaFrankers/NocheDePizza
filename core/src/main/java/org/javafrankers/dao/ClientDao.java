@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface ClientDao {
     void discharge(Client client);
-    List<Client> listClients(String id);
+    List<Client> listClients(String cliente_id);
     Client modifyClient(Client client);
     void deleteClient(Client client);
 }
