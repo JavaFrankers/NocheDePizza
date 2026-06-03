@@ -5,9 +5,9 @@ import org.javafrankers.model.Product;
 import java.util.List;
 
 public interface ProductDao {
-    Product product();
-    void update(Product product);
-    void listProduct();
-    void delete(Product product);
-    void searchById(Product product);
+    void create();
+    void update();
+    void showProducts();
+    void delete();
+    void searchById();
 }
