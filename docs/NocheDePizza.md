@@ -7,7 +7,7 @@
 | Cristian | Pedido               |
 | Esther | Cliente              |
 | Josué Francisco | Cliente              |
-| Diego | Docker-Conexion JDBC |
+| Diego | Docker-Conexion JDBC App |
 | Pablo | Producto             |
 | Carlos | M/R                  |
 ### Requisitos Técnicos

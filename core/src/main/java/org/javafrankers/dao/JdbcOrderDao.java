@@ -14,6 +14,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.List;
 
+@Data
 @Log4j
 public class JdbcOrderDao implements OrderDao{
     private final DataSource ds;
@@ -21,18 +22,18 @@ public class JdbcOrderDao implements OrderDao{
         this.ds = ds;
     }
 
-//    @Override
-//    public Order createOrder(Cliente client){
-//        String sql = "INSERT INTO pedido (id, id_cliente, fecha, total, cantidad) VALUES (?, ?, ?, ?, ?)";
-//        String sql2 = "INSERT INTO lineaPedido(id,id_pedido,id_producto,cantidad values (?,?,?,)";
-//        try (Connection conn = DataBaseConnection.getConnection()){
-//            PreparedStatement pstmt = conn.prepareStatement(sql);
-//
-//        }catch (Exception e){
-//            e.printStackTrace();
-//        }
-//        return new Order(idPedido,cliente_id,fecha,total,estado,productos);
-//    }
+    @Override
+    public Order createOrder(Cliente client){
+        String sql = "INSERT INTO pedido (id, id_cliente, fecha, total, cantidad) VALUES (?, ?, ?, ?, ?)";
+        String sql2 = "INSERT INTO lineaPedido(id,id_pedido,id_producto,cantidad values (?,?,?,)";
+        try (Connection conn = DataBaseConnection.getConnection()){
+            PreparedStatement pstmt = conn.prepareStatement(sql);
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return new Order(idPedido,cliente_id,fecha,total,estado,productos);
+    }
 
     @Override
     public void update(Order order) {
